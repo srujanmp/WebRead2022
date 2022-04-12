@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+  color: rgb(128, 115, 115);
+}
+html {
+  background-color: rgb(19, 15, 15);
+}
+nav .nleft img {
+  border-radius: 5px;
+  height: 40px;
+  font-size: 100px;
+}
+nav {
+  border: 2px solid black;
+  background-color: rgba(29, 29, 34, 90%);
+  border-radius: 15px;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  text-align-last: justify;
+}
+.nav {
+  padding-right: 5%;
+}
+.nleft {
+  padding-left: 3%;
+}
+.nav,
+.nleft {
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 6px;
+}
+.nav li a {
+  font-size: 20px;
+  font-weight: 500px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(255, 248, 238);
+  text-decoration: none;
+}
+.nav li a:hover{
+  color:rgb(155, 158, 161)
+}
+/* body text starts here */
+
+h1 {
+  font-size: 30px;
+  font-weight: 1000;
+  color: aliceblue;
+  padding: 10px;
+}
+.para h3 {
+  font-size: 25px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+.para {
+
+  padding: 5px 5px 5px 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+p{
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.para p:hover,h3:hover{
+  color: rgb(187, 177, 177);
+}
+
+/* footer styles are here */
+footer {
+  margin: 5px 5px;
+  background-color: rgba(29, 29, 34, 80%);
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+footer div ,footer div a{
+  color: aliceblue;
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+}
+footer div a:hover{
+  color: rgb(111, 122, 122);
+}
